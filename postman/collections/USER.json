@@ -29,7 +29,41 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"id": "6ebced27-737e-413d-8976-27d0fefa0d01",
+					"name": "200 Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/users/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"{id}"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"name\": \"user name\",\n    \"email\": \"user email\"\n}"
+				}
+			]
 		}
 	]
 }
