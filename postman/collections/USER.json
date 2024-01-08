@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "04eb22e8-137e-4530-980e-7ab3753fdaf9",
+		"name": "USER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "18752558-04eb22e8-137e-4530-980e-7ab3753fdaf9"
+	},
+	"item": [
+		{
+			"name": "유저 상세조회",
+			"id": "b7d6827d-e7f7-4935-a173-4fe5d6c7349e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
